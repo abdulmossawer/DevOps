@@ -2,6 +2,7 @@
   "name": "devops",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
@@ -11,7 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "chai": "^5.1.2",

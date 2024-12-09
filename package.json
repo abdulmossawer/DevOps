@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "jest" 
   },
   "keywords": [],
   "author": "",
